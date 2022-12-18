@@ -66,6 +66,3 @@ func Statement(invoice Invoice, plays Plays) (string, error) {
 	result += fmt.Sprintf("You earned %v credits\n", volumeCredits)
 	return result, nil
 }
-
-func main() {
-}
